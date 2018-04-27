@@ -1,0 +1,48 @@
+Input the file you would like to be read: P92.txt
+9PC:   3
+AC:   -858993460
+MQ:   -858993460
+PC:   3
+IR:   begin
+4PC:   4
+AC:   0
+MQ:   -858993460
+PC:   4
+IR:   load M(0)
+5PC:   5
+AC:   0
+MQ:   -858993460
+PC:   5
+IR:   load -M(0)
+9PC:   6
+AC:   0
+MQ:   -858993460
+PC:   6
+IR:   . line 7 does not have correct syntax
+9PC:   7
+AC:   0
+MQ:   -858993460
+PC:   7
+IR:   load -M0)
+9PC:   8
+AC:   0
+MQ:   -858993460
+PC:   8
+IR:   . if your program continues to this comment, ERROR read the specs.
+9PC:   9
+AC:   0
+MQ:   -858993460
+PC:   9
+IR:   halt
+0     12
+1     b
+2     . this is a comment
+3     begin
+4     load M(0)
+5     load -M(0)
+6     . line 7 does not have correct syntax
+7     load -M0)
+8     . if your program continues to this comment, ERROR read the specs.
+9     halt
+Press any key to continue . . .
+
