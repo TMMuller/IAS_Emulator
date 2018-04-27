@@ -1,0 +1,73 @@
+Input the file you would like to be read: P9.txt
+9PC:   3
+AC:   -858993460
+MQ:   -858993460
+PC:   3
+IR:   begin
+4PC:   4
+AC:   0
+MQ:   -858993460
+PC:   4
+IR:   load M(0)
+5PC:   5
+AC:   0
+MQ:   -858993460
+PC:   5
+IR:   load -M(0)
+6PC:   6
+AC:   0
+MQ:   -858993460
+PC:   6
+IR:   load |M(1)|
+7PC:   7
+AC:   0
+MQ:   -858993460
+PC:   7
+IR:   load -|M(0)|
+3PC:   8
+AC:   0
+MQ:   -858993460
+PC:   8
+IR:   stor M(1)
+1PC:   9
+AC:   -858993460
+MQ:   0
+PC:   9
+IR:   load MQ
+2PC:   10
+AC:   -858993460
+MQ:   0
+PC:   10
+IR:   load MQ,M(0)
+9PC:   11
+AC:   -858993460
+MQ:   0
+PC:   11
+IR:   . line 12 was skipped intentionally
+9PC:   12
+AC:   -858993460
+MQ:   0
+PC:   12
+IR:
+9PC:   13
+AC:   -858993460
+MQ:   0
+PC:   13
+IR:   halt
+0     12
+1     -2 b
+2     . this is a comment
+3     begin
+4     load M(0)
+5     load -M(0)
+6     load |M(1)|
+7     load -|M(0)|
+8     stor M(1)
+9     load MQ
+10     load MQ,M(0)
+11     . line 12 was skipped intentionally
+12
+13     halt
+Press any key to continue . . .
+
+
